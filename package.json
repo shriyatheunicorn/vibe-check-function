@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "bb dev src/index.ts",
+    "dev:mock": "node scripts/mock-server.mjs",
     "publish": "bb publish src/index.ts",
     "typecheck": "tsc --noEmit"
   },
