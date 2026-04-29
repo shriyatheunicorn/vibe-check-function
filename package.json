@@ -1,0 +1,20 @@
+{
+  "name": "vibe-check-function",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bb dev src/index.ts",
+    "publish": "bb publish src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@browserbasehq/sdk-functions": "latest",
+    "playwright-core": "^1.49.1",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^5.6.3"
+  }
+}
